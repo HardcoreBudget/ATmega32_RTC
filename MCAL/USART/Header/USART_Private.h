@@ -1,0 +1,26 @@
+/*
+ * USART_Private.h
+ *
+ *  Created on: Oct 29, 2023
+ *      Author: Hazim Emad
+ */
+
+#ifndef MCAL_USART_HEADER_USART_PRIVATE_H_
+#define MCAL_USART_HEADER_USART_PRIVATE_H_
+
+#define USART_ASYNCHRONOUS   0
+#define USART_SYNCHRONOUS    1
+
+#define USART_DOUBLE_SPEED_MODE   0
+#define USART_NORMAL_SPEED_MODE   1
+
+#define USART_PARITY_DISABLED	0
+#define USART_PARITY_ENABLED	1
+
+#define USART_STOP_2BIT		0
+#define USART_STOP_1BIT		1
+
+#define USART_CLOCK_FALLING		0
+#define USART_CLOCK_RISING		1
+
+#endif /* MCAL_USART_HEADER_USART_PRIVATE_H_ */
